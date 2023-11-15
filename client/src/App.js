@@ -10,7 +10,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/board" element={<BoardList/>}/>
-      <Route path="/acess" element={<Acess/>}/>
+      <Route path="/board/:idx" element={<BoardList/>}/>
+      {/* <Route path="/acess" element={<Acess/>}/> */}
     </Routes>
  );
 }
